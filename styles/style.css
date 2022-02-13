@@ -221,3 +221,14 @@ body {
     align-items: center;
     margin-right: 1vh;
 }
+
+
+
+
+
+
+.add_new_personal_container {
+    height: 50%;
+    width: 60%;
+    border: 1px solid black;
+}

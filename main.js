@@ -8,7 +8,10 @@ require('electron-reload')(__dirname, {
 
 const createWindow = () => {
     const win = new BrowserWindow({
-        show: false
+        show: false,
+        // webPreferences: {
+        //     nodeIntegration: true
+        // }
     })
 
     win.maximize()
@@ -17,7 +20,7 @@ const createWindow = () => {
     win.loadFile('index.html')
 
     // opening dev tools in electron app
-    win.openDevTools()
+    // win.openDevTools()
 }
 
 app.whenReady().then(() => {
