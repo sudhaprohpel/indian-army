@@ -20,7 +20,7 @@ const createWindow = () => {
     win.loadFile('index.html')
 
     // opening dev tools in electron app
-    // win.openDevTools()
+    win.openDevTools()
 }
 
 app.whenReady().then(() => {

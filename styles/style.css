@@ -175,7 +175,7 @@ body {
     width: 100vw;
 }
 
-.form_filling_container > div {
+.form_filling_container > * {
     background-color: #fff;
     box-shadow: 0 0 10px 1px lightgrey;
     padding: 1%;
@@ -186,7 +186,7 @@ body {
     width: 20%;
 }
 
-.form_filling_right_container {
+.form_filling_right_main_container {
     height: 100%;
     width: 60%;
     margin-left: 2%;
@@ -220,6 +220,30 @@ body {
     display: flex;
     align-items: center;
     margin-right: 1vh;
+}
+
+.right_form_filling_container {
+    height: 100%;
+    width: 100%;
+}
+
+.form_filling_upper_container {
+    height: 30%;
+    width: 100%;
+}
+
+.search_options_container {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_options_container > div {
+    height: 100%;
+    width: 30%;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 1vh;
 }
 
 
